@@ -8,24 +8,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper"></div>
       <header>
-        <h1>Password Generator</h1>
+        <h1>Password Generator</h1> <!--Created Header indicating what this page is used for-->
       </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea readonly id="password" placeholder="Your Secure Password" arial-label="Generate Password">
-            
-          </textarea>
-      </div>
-        <div class="card-footer">
-          <button onclick="">Generate Password</button>
-        </div>
-      </div>
+        <div class="container"> <!--Created a container to the data of the returned function-->
+          <div class="heading">Generated Password</div>
+          <input type="text" placeholder="Your Secure Password" class="input" id="input"> <!--input element to hold the generated password-->
+          <button class="generate" onclick="generate()">Generate Password</button> <!--button to initiate the generation of random password upon click--> 
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script> <!--script tag to link html and javascript file-->
   </body>
 </html>
