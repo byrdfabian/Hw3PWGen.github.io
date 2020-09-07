@@ -5,7 +5,9 @@ body {
   align-items:center;
   overflow:hidden;
 }
-
+.header{
+  margin:10px;
+}
 .container {
   background: white;
   width: 800px;
